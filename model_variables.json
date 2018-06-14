@@ -1,0 +1,44 @@
+{
+    "learning_rate": 0.0001,
+    "decay": 0.0001,
+    "conv1": {
+        "filter_size": 96,
+        "kernel_size": [7,7],
+        "stride": [4,4],
+        "padding": "valid",
+        "bias":"zeros"
+    },
+    "pool1": {
+        "pool_shape": [3,3],
+        "stride": [2,2],
+        "padding": "valid"
+    },
+    "conv2": {
+        "filter_size": 256,
+        "kernel_size": [5,5],
+        "stride": [1,1],
+        "padding": "valid",
+        "bias":"ones"
+    },
+    "pool2": {
+        "pool_shape": [3,3],
+        "stride": [2,2],
+        "padding": "valid"
+    },
+    "conv3": {
+        "filter_size": 384,
+        "kernel_size": [3,3],
+        "stride": [1,1],
+        "padding": "valid",
+        "bias":"zeros"
+    },
+    "pool3": {
+        "pool_shape": [3,3],
+        "stride": [2,2],
+        "padding": "valid"
+    },
+    "dense1": 512,
+    "drop1": 0.5,
+    "dense2": 512,
+    "drop2": 0.5
+}

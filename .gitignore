@@ -1,0 +1,9 @@
+outputs/
+saved_weights/
+test_img/
+DB/
+DB_fd/
+DB_fd_shuff/
+DB_shuff/
+__pycache__/
+anaconda-project.yml

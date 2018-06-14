@@ -1,0 +1,16 @@
+{
+	"name": "age_detection_fd",
+    "class": "age",
+	"orig_database_path":"D:\\Araproje_database\\database",
+	"new_database_path":"DB_fd",
+	"img_resize": 256,
+	"img_in_width": 227,
+	"img_in_height": 227,
+	"shuffle": false,
+	"train_ratio": 0.9,
+	
+	"face_detection": true,
+	
+	"epoch": 20,
+	"batch_size": 64
+}
